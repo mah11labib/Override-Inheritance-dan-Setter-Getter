@@ -9,7 +9,9 @@ package OverrideInheritance;
  * @author UsEr
  */
 public class Mobil {
+    @Override
     public void jalankan(){
         System.out.println("Masukan gigi 1, lepas kopling sambil tekan gas....");
+        return jalankan;
     }
 }
